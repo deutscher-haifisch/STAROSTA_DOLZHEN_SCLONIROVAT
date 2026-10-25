@@ -18,7 +18,7 @@ function CopyEmail({ email }) {
     }
 
     clearTimeout(timerRef.current)
-    timerRef.current = setTimeout(() => setMessage(''), 10000)
+    timerRef.current = setTimeout(() => setMessage(''), 2000)
   }
 
   return (
