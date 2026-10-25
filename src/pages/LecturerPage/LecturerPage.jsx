@@ -17,6 +17,8 @@ function LecturerPage({ lecturer, onBack }) {
           degree={lecturer.degree}
           experience={lecturer.experience}
           education={lecturer.education}
+          email={lecturer.email}
+          
         />
 
         <section>

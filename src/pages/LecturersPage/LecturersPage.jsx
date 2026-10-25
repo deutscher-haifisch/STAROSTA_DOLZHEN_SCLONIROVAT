@@ -13,6 +13,7 @@ function LecturersPage({ lecturers, onOpenLecturer }) {
             degree={l.degree}
             experience={l.experience}
             education={l.education}
+            email={l.email}
             onClick={() => onOpenLecturer(l.id)}
           />
         ))}
