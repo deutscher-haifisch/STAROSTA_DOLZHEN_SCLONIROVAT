@@ -1,0 +1,16 @@
+.lecturer-back {
+  margin-bottom: 24px;
+}
+
+.lecturer-page {
+  display: grid;
+  grid-template-columns: 340px 1fr;
+  gap: 32px;
+  align-items: start;
+}
+
+@media (max-width: 800px) {
+  .lecturer-page {
+    grid-template-columns: 1fr;
+  }
+}

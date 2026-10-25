@@ -1,0 +1,20 @@
+.footer {
+  background: #1c1f2a;
+  color: #c3c7d4;
+}
+
+.footer-inner {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 28px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 32px;
+  align-items: center;
+}
+
+.footer-brand {
+  flex: 1;
+  font-size: 20px;
+  color: #fff;
+}
