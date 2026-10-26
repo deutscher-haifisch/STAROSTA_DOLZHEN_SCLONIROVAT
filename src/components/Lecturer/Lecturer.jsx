@@ -1,7 +1,8 @@
 import LecturerPhoto from '../LecturerPhoto/LecturerPhoto'
+import CopyEmail from '../CopyEmail/CopyEmail'
 import './Lecturer.css'
 
-function Lecturer({ photo, name, degree, experience, education, onClick }) {
+function Lecturer({ photo, name, degree, experience, education, email, onClick }) {
   return (
     <article className="lecturer">
       <LecturerPhoto src={photo} alt={name} />
@@ -13,6 +14,8 @@ function Lecturer({ photo, name, degree, experience, education, onClick }) {
           <li><span>Учёная степень:</span> {degree}</li>
           <li><span>Образование:</span> {education}</li>
         </ul>
+
+        <CopyEmail email={email} />
 
         {onClick && (
           <button className="btn btn-outline" onClick={onClick}>
